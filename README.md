@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.0.5**
+# **CF02_84240189_METALES PRECIOSOS Y ALEACIONES  PARA JOYERIA**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-atlantico.github.io/84240189_CF02_METALES-PRECIOSOS-Y-ALEACIONES-PARA-JOYERIA](https://ecoredsena-atlantico.github.io/84240189_CF02_METALES-PRECIOSOS-Y-ALEACIONES-PARA-JOYERIA)
 
 #
 

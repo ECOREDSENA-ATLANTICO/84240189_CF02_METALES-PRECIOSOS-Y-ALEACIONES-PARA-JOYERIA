@@ -2,7 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p El programa de aprendizaje se enfoca, en la aleación del metal combina dos o más metales para mejorar sus propiedades en joyería. La soldadura une piezas mediante calor, esencial para ensamblar y reparar.
+    p La fundición implica verter metal en un molde, con su calidad dependiente de factores como temperatura y composición. Los Depurantes eliminan impurezas, mientras que los fundentes facilitan la fusión.
+    p Los ensayos químicos analizan la pureza de metales, y modificar la ley ajusta la composición para alterar características. El riesgo higiénico en la joyería incluye peligros por exposición a sustancias tóxicas, por lo que se requieren medidas de seguridad.
+    p.mb-5 El manejo de residuos se centra en la gestión adecuada de desechos, fundamental para cumplir normativas ambientales y recuperar metales preciosos.
+
 
     .row.justify-content-center
       .col-lg-10.mb-5
