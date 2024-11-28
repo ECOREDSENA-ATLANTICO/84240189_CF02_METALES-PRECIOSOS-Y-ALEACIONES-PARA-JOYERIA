@@ -25,3 +25,173 @@
 
 .banner-interno__fondo
     background-image: url(../assets/curso/portada/banner_interno.svg) !important
+
+
+//BACKGROUND CONTENIDOS//
+.bgr
+  color: #C10000 !important
+  &_1
+    background-color: $color-acento-botones
+    border-top-right-radius: 20px
+    padding: 15px
+    display: inline
+  &_2
+    background-image: url(../assets/curso/temas/tema1/7.png) !important
+    background-repeat: no-repeat 
+    background-size: cover
+    border-radius: 20px
+    padding: 20px
+  &_3
+    background-image: url(../assets/curso/temas/tema1/8.png) !important
+    background-repeat: no-repeat 
+    background-size: cover
+    border-radius: 20px
+    padding: 20px
+  &_4
+    background-color: #E69999
+  &_5
+    background-color: #FFFFFF
+  &_6
+    background-color: #BD2F56
+  &_7
+    background-image: url(../assets/curso/temas/tema1/26.png) !important
+    background-repeat: no-repeat 
+    background-size: cover
+    border-radius: 20px
+    padding: 20px
+  &_8
+    background-color: #D2E1F1
+  &_9
+    background-color: #12263F
+  &_10
+    background-color: #A50417
+    display: inline-block
+    
+.bg_img
+  position: relative
+  p, figure, slyder-f, .tarjeta, .linea-tiempo-d, .row
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: -20px
+    left: -48px
+    width: calc(100% + 96px)
+    height: calc(100% + 40px)
+    background-color: #F2E6E6
+  &_1
+    position: relative
+    p, figure, slyder-f, .tarjeta, .linea-tiempo-d, .row
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -20px
+      left: -48px
+      width: calc(100% + 96px)
+      height: calc(100% + 40px)
+      background-color: #D2E1F1
+  &_2
+    position: relative
+    p, figure, slyder-f, .tarjeta, .linea-tiempo-d, .row
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -30px
+      left: -48px
+      width: calc(100% + 96px)
+      height: calc(100% + 50px)
+      background-color: #F6F6F6
+  &_3
+    position: relative
+    p, figure, slyder-f, .tarjeta, .linea-tiempo-d, .row
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -30px
+      left: -48px
+      width: calc(100% + 96px)
+      height: calc(100% + 50px)
+      background: linear-gradient(180deg, rgba(210,225,241,1) 35%, rgba(252,230,206,1) 100%)
+  &_4
+    position: relative
+    p, figure, slyder-f, .tarjeta, .linea-tiempo-d, .row
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: -30px
+      left: -48px
+      width: calc(100% + 96px)
+      height: calc(100% + 50px)
+      background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(210,225,241,1) 100%);
+
+      
+
+
+///////// Card hover --------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 1) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+//CLASES REEMPLAZADAS//
+.tabla-a.color-acento-botones thead
+  border-color: #C10000
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: $color-acento-contenido
+  background-color: $color-acento-contenido
+.pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: $color-acento-contenido
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: $color-acento-contenido
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before
+  background-color: $color-acento-contenido 
+
+//LINEA DE TIEMPO//
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: $color-acento-botones
+  color: $color-sistema-texto
+
+//MODIFICACION PESTAÑAS A//
+.tarjeta.color-acento-botones--borde
+  background-image: url(../assets/curso/temas/tema7/5.png) !important
+  background-size: cover
+  border: none
+.tabs-a__tab
+  background-color: #D2E1F1
+
+//MODIFICACION TABS-B//
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  background-color: $color-primario
+  color: white
+.tabs-b__tab, .tabs-b__tab:last-child
+  background-color: #B0C0D2
+.tabs-b__content-item
+  background-color: $color-primario
+.tabla-a table
+  min-width: auto 
