@@ -108,7 +108,29 @@
 
     p.mt-5 La cantidad de metal que se puede fundir a través de un soplete es limitada, a manera de referencia se puede decir que lo sopletes de fundición que alcanzan las temperaturas más elevadas pueden fundir alrededor de 250 grs de plata 925 en un ciclo de fundición, desde luego esto depende de muchos factores: tipo de soplete, tipo de combustible, forma de alimentación del oxígeno, tamaños del crisol, temperaturas de fusión de los metales componentes de la aleación, etc. 
     
-    
+    SlyderA(tipo="b").bgr_3.mb-5
+      .row.justify-content-center
+        .col-md-7.mb-4.mb-md-0.align-content-center.text-white
+          h3 Soplete de fundición 
+          p Un soplete de fundición es una herramienta utilizada para fundir metales, que genera altas temperaturas mediante la combinación de combustible y oxígeno. Su diseño permite ajustar la llama y el flujo de aire, optimizando el proceso de fusión. Ideal para joyería y metalurgia, su eficacia depende de factores como el tipo de soplete y las características del metal a fundir. 
+        .col-md-3
+          figure
+            img(src='@/assets/curso/temas/tema3/11.png', alt='Imagen de apoyo')
+      .row.justify-content-center
+        .col-md-7.mb-4.mb-md-0.align-content-center.text-white
+          h3 Soplete de fundición a gas 
+          p Un soplete de fundición de gas es una herramienta que utiliza gas, como propano o acetileno, para generar altas temperaturas necesarias para fundir metales. Su diseño permite ajustar la llama, proporcionando control sobre el proceso de fusión. Es ideal para trabajos en joyería y metalurgia, facilitando la fusión de aleaciones con precisión y eficiencia en talleres artesanales y profesionales.  
+        .col-md-3
+          figure
+            img(src='@/assets/curso/temas/tema3/12.png', alt='Imagen de apoyo')
+      .row.justify-content-center
+        .col-md-7.mb-4.mb-md-0.align-content-center.text-white
+          h3 Soplete de fundición gas/oxigeno
+          p Un soplete de fundición de oxígeno utiliza oxígeno y combustible, como acetileno, para generar temperaturas extremas que permiten la fusión de metales. Este tipo de soplete proporciona una llama muy caliente y controlable, ideal para trabajos de precisión en joyería y metalurgia. Su capacidad para fundir metales de alta densidad lo convierte en una herramienta esencial en talleres especializados.
+        .col-md-3
+          figure
+            img(src='@/assets/curso/temas/tema3/13.png', alt='Imagen de apoyo')
+      
     
     
     
