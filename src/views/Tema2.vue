@@ -14,8 +14,8 @@
       .col.p-0
         h4 Aleaciones con metales preciosos 
     
-    .row.mb-5 
-      .col-lg-3.align-content-center
+    .row.mb-5.justify-content-center
+      .col-md-6.col-lg-3.align-content-center.mb-3
         figure
           img(src="@/assets/curso/temas/tema2/1.png", alt="alt")
       .col-lg-9
@@ -37,44 +37,44 @@
     
     SlyderA(tipo="b").bgr_3.mb-5
       .row.justify-content-center
-        .col-md-7.mb-4.mb-md-0.align-content-center.text-white
+        .col-lg-7.mb-4.mb-md-0.align-content-center.text-white
           h3 Soldaduras dulces o de bajo punto de fusión. 
           p En lo que refiere joyería, estas soldaduras solo deben utilizarse cuando no queda otra alternativa. La mayoría de ellas contienen plomo y estaño, que pueden contaminar los metales a soldar, sobre todo el plomo al que podemos considerar el peor enemigo de los metales preciosos. 
-        .col-md-3
+        .col-md-8.col-lg-3.align-content-center
           figure
             img(src='@/assets/curso/temas/tema2/3.png', alt='Imagen de apoyo')
       .row.justify-content-center
-        .col-md-7.mb-4.mb-md-0.align-content-center
+        .col-lg-7.mb-4.mb-md-0.align-content-center.text-white
           h3.text-white Soldaduras duras.  
           p.text-white Este es un tipo de soldadura totalmente distinta de las anteriores y que distribuiremos en: 
           ul.lista-ul--color
             li.d-flex 
               i.fas.fa-check-circle.bgr
-              p.text-white.mb-0 Aleaciones de cobre para soldar 
+              p.text-white.mb-0 Aleaciones de cobre para soldar. 
             li.d-flex 
               i.fas.fa-check-circle.bgr
-              p.text-white.mb-0 Aleaciones de plata para soldar 
+              p.text-white.mb-0 Aleaciones de plata para soldar. 
             li.d-flex 
               i.fas.fa-check-circle.bgr
-              p.text-white.mb-0 Aleaciones de oro de color para soldar 
+              p.text-white.mb-0 Aleaciones de oro de color para soldar. 
             li.d-flex 
               i.fas.fa-check-circle.bgr
-              p.text-white.mb-0 Aleaciones para soldar oro blanco 
+              p.text-white.mb-0 Aleaciones para soldar oro blanco. 
             li.d-flex 
               i.fas.fa-check-circle.bgr
-              p.text-white.mb-0 Aleaciones para soldar platino
-        .col-md-3
+              p.text-white.mb-0 Aleaciones para soldar platino.
+        .col-md-8.col-lg-3.align-content-center
           figure
             img(src='@/assets/curso/temas/tema2/4.png', alt='Imagen de apoyo')
       .row.justify-content-center
-        .col-md-7.mb-4.mb-md-0.align-content-center.text-white
+        .col-lg-7.mb-4.mb-md-0.align-content-center.text-white.text-white
           h3 Aleaciones de cobre para soldar  
           p Estas aleaciones funden entre los 780 y los 1083 °C. Se utilizan mayormente en la industria y no tienen mayor aplicabilidad en la joyería. 
-        .col-md-3
+        .col-md-8.col-lg-3.align-content-center
           figure
             img(src='@/assets/curso/temas/tema2/5.png', alt='Imagen de apoyo')
       .row.justify-content-center
-        .col-md-7.mb-4.mb-md-0.align-content-center
+        .col-lg-7.mb-4.mb-md-0.align-content-center.text-white
           h3.text-white Soldadura en plata  
           p.text-white Se emplean para soldar plata, cobre, alpaca, latón, etc. 
           p.text-white Generalmente se trata de aleaciones:
@@ -88,12 +88,12 @@
             li.d-flex 
               i.fas.fa-check-circle.bgr
               p.text-white.mb-0 CUATERNARIAS Plata/cobre/zinc/cadmio Plata/cobre/zinc/estaño Los intervalos de fusión suelen estar comprendidos entre los 600 y los 850°C.
-        .col-md-3
+        .col-md-8.col-lg-3.align-content-center
           figure
             img(src='@/assets/curso/temas/tema2/6.png', alt='Imagen de apoyo')
     
-    .row.mb-5
-      .col-lg-7
+    .row.mb-5.justify-content-center
+      .col-xl-7
         .titulo-sexto.color-acento-contenido
           h5 Tabla 8
           span <em>Binarias</em>
@@ -104,7 +104,7 @@
               tr.bgr_4
                 th PLATA
                 th COBRE
-                th FUSION
+                th FUSIÓN
             tbody.bgr_5
               tr
                 td 800
@@ -129,7 +129,7 @@
               tr.bgr_4
                 th PLATA
                 th CADMIO
-                th FUSION
+                th FUSIÓN
             tbody.bgr_5
               tr
                 td 700
@@ -143,7 +143,7 @@
                 td 600
                 td 334
                 td 
-      .col-lg-5.align-content-center
+      .col-md-10.col-xl-5.align-content-center
         figure
           img(src='@/assets/curso/temas/tema2/7.png', alt='Imagen de apoyo')
     
@@ -155,15 +155,15 @@
       h5 Tabla 10
       span <em>Ternaria</em>
   
-    .tabla-a.color-acento-botones.bgr_6.mb-5.text-center
+    .tabla-a.color-acento-botones.bgr_6.mb-5.text-center.pst_1
       table
         thead
           tr.bgr_4
             th PLATA
             th COBRE
             th ZINC
-            th LATON 70%
-            th FUSION °C
+            th LATON 70 %
+            th FUSIÓN °C
             th OBSERVACION
         tbody.bgr_5
           tr
@@ -221,8 +221,8 @@
             th COBRE
             th ZINC
             th CADMIO
-            th LATON 70%
-            th FUSION
+            th LATON 70 %
+            th FUSIÓN
         tbody.bgr_5
           tr
             td 750
@@ -269,6 +269,9 @@
     
     .row.mb-5.justify-content-center
       .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Tabla 12
+          span <em>Cuaternarias completas</em>
         .tabla-a.color-acento-botones.bgr_6.mb-5.text-center
           table
             thead
@@ -277,7 +280,7 @@
                 th COBRE
                 th ZINC
                 th CADMIO
-                th LATON 70%
+                th LATON 70 %
             tbody.bgr_5
               tr
                 td 570
@@ -305,11 +308,11 @@
                 td 200
     
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-      .row(titulo="Soldaduras de oro de color")
-        .col-md-4
+      .row(titulo="Soldaduras de oro de color").justify-content-center
+        .col-md-4.col-xl-4
           figure
             img(src='@/assets/curso/temas/tema2/8.png', alt='Imagen de apoyo')
-        .col-md-8.mb-4.mb-md-0.align-content-center
+        .col-xl-8.mb-4.mb-md-0.align-content-center
           h4 Soldaduras de oro de color.
           p Para evitar rebajar el título de la pieza en la que se está trabajando, es recomendable emplear siempre soldaduras del mismo título, aunque de composición adecuada para obtener un punto de fusión más bajo que el de las partes a soldar. También es importante que las soldaduras tengan un color lo más parecido posible al metal que tiene que soldar.
           p.text-bold Soldadura de oro de color
@@ -321,9 +324,9 @@
                   th PLATA
                   th COBRE
                   th ZINC
-                  th LATON 70%
+                  th LATON 70 %
                   th CADMIO
-                  th FUSION °C
+                  th FUSIÓN °C
               tbody.bgr_5
                 tr
                   td 750
@@ -373,11 +376,11 @@
                   td 
                   td 50
                   td
-      .row(titulo="Soldaduras Oro Blanco")
-        .col-md-4
+      .row(titulo="Soldaduras Oro Blanco").justify-content-center
+        .col-md-4.col-xl-4
           figure
             img(src='@/assets/curso/temas/tema2/9.png', alt='Imagen de apoyo')
-        .col-md-8.mb-4.mb-md-0.align-content-center
+        .col-xl-8.mb-4.mb-md-0.align-content-center
           h4 Soldaduras Oro Blanco
           p Al trabajar con oro blanco, suelen utilizarse dos soldaduras, una fuerte y otra más tierna. Cuando se habla de oro blanco no se puede generalizar ya que existen una gran variedad de aleaciones del mismo muy diferentes entre sí. 
           p En realidad, las soldaduras especiales para oro blanco han perdido bastante interés. Actualmente, casi todas las piezas fabricadas en oro blanco acaban terminadas con un baño de rodio que unifica totalmente el color. El baño de rodio es muy difícil que, a través de los años desaparezca de piezas que no tengan un roce excesivo.
@@ -417,11 +420,11 @@
                   td 30
                   td 100   
     
-      .row(titulo="Soldaduras para platino")
-        .col-md-4
+      .row(titulo="Soldaduras para platino").justify-content-center
+        .col-md-4.col-xl-4
           figure
             img(src='@/assets/curso/temas/tema2/10.png', alt='Imagen de apoyo')
-        .col-md-8.mb-4.mb-md-0.align-content-center
+        .col-xl-8.mb-4.mb-md-0.align-content-center
           h4 Soldaduras para platino
           p Las soldaduras más sólidas para el platino son la autógena y la de forjado en caliente. En el primer caso se interpone una delgada lámina de platino del mismo título que el que se trabajó, entre las partes a soldar y, concentrando la llama oxhídrica en la plaquita. Se alcanza el punto de fusión y se rellena el hueco correspondiente. El otro procedimiento consiste en calentar al rojo blanco las partes que se pretenden unir, sobreponerlas y se golpean con un martillo. 
           p Como se observa son dos prácticas que, aunque muy sólidas, son difíciles de llevar a la práctica. Por lo que hay que recurrir a otras aleaciones con un punto de fusión más bajo.
@@ -438,7 +441,7 @@
                   th PLATA
                   th COBRE
                   th PALADIO
-                  th FUSION
+                  th FUSIÓN
               tbody.bgr_5
                 tr
                   td 900

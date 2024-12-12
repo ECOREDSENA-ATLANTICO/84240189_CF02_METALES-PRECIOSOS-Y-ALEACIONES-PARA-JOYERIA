@@ -9,8 +9,8 @@
     
     p.text-bold.mb-5 Los metales nunca se trabajan absolutamente puros, por dos razones:
 
-    .row.mb-5
-      .col-lg-4
+    .row.mb-5.justify-content-center
+      .col-md-6.col-lg-4.mb-3
         figure
           img(src='@/assets/curso/temas/tema1/1.svg', alt='Imagen decorativa')
       .col-lg-8.align-content-center
@@ -38,8 +38,8 @@
     p.mt-4 Entre estas aleaciones se destacan las siguientes:
     p El bronce (cobre y estaño), el latón (cobre y zinc) y la alpaca (cobre, níquel y zinc) son aleaciones versátiles con aplicaciones industriales, decorativas y eléctricas por su resistencia y estética.
   
-    .row
-      .col-md-3
+    .row.justify-content-center
+      .col-md-3.align-content-center
         figure
           img(src='@/assets/curso/temas/tema1/6.png', alt='Imagen de apoyo')
       .col-md-9.mb-4.mb-md-0.align-content-center
@@ -57,34 +57,34 @@
 
     SlyderA(tipo="b").bgr_3.mb-5
       .row.justify-content-center
-        .col-md-7.mb-4.mb-md-0.align-content-center.text-white
+        .col-lg-12.col-xl-7.mb-4.mb-md-0.align-content-center.text-white.text-center
           h3 Propiedades físicas 
-          p.mb-0 El color varía según la proporción cobre /zinc 
-          p.mb-0 50 al 66% de cobre……………amarillo fuerte 
-          p.mb-0 66 al 75% de cobre……………amarillos pálidos 
-          p.mb-0 75 al 86% de cobre……………amarillo rojizo 
-          p.mb-0 86 al 98% de cobre……………rojo amarillento
-        .col-md-3
+          p.mb-0 El color varía según la proporción cobre / zinc 
+          p.mb-0 50 al 66% de cobre....................amarillo fuerte 
+          p.mb-0 66 al 75% de cobre................amarillos pálidos 
+          p.mb-0 75 al 86% de cobre.....................amarillo rojizo 
+          p.mb-0 86 al 98% de cobre...................rojo amarillento
+        .col-md-8.col-lg-6.col-xl-3
           figure
             img(src='@/assets/curso/temas/tema1/9.png', alt='Imagen de apoyo')
-      .row.justify-content-center
-        .col-md-8.mb-4.mb-md-0.align-content-center
+      .row.justify-content-center.p-1
+        .col-lg-12.col-xl-7.mb-4.mb-md-0.align-content-center
           h3.text-white Propiedades químicas 
           p.text-white El latón no es muy resistente frente a los ácidos sulfúricos y clorhídricos. Es estable frente a las bases, a excepción del amoniaco, es rápidamente atacado por el ácido nítrico. 
           p.text-bold.text-white Temperaturas de fusión y de colada 
-          .tabla-a.color-acento-botones.bgr_6.mb-5.text-center 
+          .tabla-a.color-acento-botones
             table
               thead
                 tr.bgr_4
-                  th COBRE/ZINC
-                  th FUSION
-                  th TEMP.DE COLADA
+                  th COBRE / ZINC
+                  th FUSIÓN
+                  th TEMP. DE COLADA
                   th DENSIDAD
               tbody.bgr_5
                 tr
                   td 60/40
                   td 900 °C
-                  td 1000 A 1020 °C
+                  td 1000 A 1020 °C 
                   td 8,11
                 tr
                   td 63/37
@@ -96,11 +96,11 @@
                   td 970 °C
                   td 1130 A 1150 °C
                   td 8,34
-        .col-md-3.align-content-center
+        .col-md-8.col-lg-6.col-xl-3.align-content-center
           figure
             img(src='@/assets/curso/temas/tema1/10.png', alt='Imagen de apoyo')
-      .row.justify-content-center
-        .col-md-8.mb-4.mb-md-0.align-content-center
+      .row.justify-content-center.p-1
+        .col-lg-12.col-xl-7.mb-4.mb-md-0.align-content-center
           h3.text-white En bisutería también se utilizan los latones como
           p.mb-0.text-white.text-bold Tombak o tumbaga 
           p.text-white La tumbaga es un latón compuesto solo por cobre y zinc, cuyo contenido oscila entre el 80 y el 90%. 
@@ -108,16 +108,16 @@
           p.text-white El similor no tiene una composición fija determinada. Existen investigaciones para encontrar una aleación con un color más o menos parecido al oro. Algunos son: 
  
           p.text-bold.text-white Temperaturas de fusión y de colada 
-          .tabla-a.color-acento-botones.bgr_6.mb-5.text-center 
+          .tabla-a.color-acento-botones.bgr_6.mb-5.text-center
             table
               thead
                 tr.bgr_4
-                  th COBRE
-                  th ESTAÑO
-                  th ZINC
-                  th NIQUEL
-                  th ALUMINIO
-                  th DENSIDAD
+                  td.text-bold COBRE
+                  td.text-bold ESTAÑO
+                  td.text-bold ZINC
+                  td.text-bold NIQUEL
+                  td.text-bold ALUMINIO
+                  td.text-bold DENSIDAD
               tbody.bgr_5
                 tr
                   td 920
@@ -154,40 +154,40 @@
                   td
                   td
                   td 8,81
-        .col-md-3.align-content-center
+        .col-md-8.col-lg-6.col-xl-3.align-content-center
           figure
             img(src='@/assets/curso/temas/tema1/11.png', alt='Imagen de apoyo')
     
     LineaTiempoD.color-primario.mb-5
-      .row(numero="1" titulo="Alpaca")
-        .col-md-8.mb-4.mb-md-0
+      .row(numero="1" titulo="Alpaca").justify-content-center
+        .col-lg-8.mb-4.mb-md-0
           p La alpaca plateada o sin platear ha sido muy utilizada en la fabricación de cuberterías y vajillas tratando de sustituir la plata.
           p Siempre que tengamos que utilizar algún tipo de alpaca, si podemos elegir, debemos utilizar la alpaca laminada. Por regla general, los metales laminados siempre suelen ofrecer mayores garantías en su composición que los que solamente han sido fundidos. 
           p La alpaca es conocida por diferentes nombres comerciales tales como: plata nueva, plata alemana, níquel silver, argentan, etc.      
-        .col-md-4
+        .col-md-6.col-lg-4
           figure
             img(src="@/assets/curso/temas/tema1/12.png", alt="alt")
-      .row(numero="2" titulo="Composición")
-        .col-md-8.mb-4.mb-md-0
-          p Níquel: .............. del 12 al 22 % 
-          p Cobre: .............. del 60 al 65% 
+      .row(numero="2" titulo="Composición").justify-content-center
+        .col-lg-8.mb-4.mb-lg-0
+          p Níquel: ................ del 12 al 22 % 
+          p Cobre: ................. del 60 al 65% 
           p Zinc: ................... del 18 al 23 %
      
-        .col-md-4
+        .col-md-6.col-lg-4
           figure
             img(src="@/assets/curso/temas/tema1/13.png", alt="alt")
-      .row(numero="3" titulo="Propiedades")
-        .col-md-8.mb-4.mb-md-0
-          p El color depende de la composición, especialmente de la cantidad de níquel 
+      .row(numero="3" titulo="Propiedades").justify-content-center
+        .col-lg-8.mb-4.mb-lg-0
+          p El color depende de la composición, especialmente de la cantidad de níquel. 
 
-          P.mb-0 33% Níquel........ azul blanco 
-          P.mb-0 27% Níquel ........ Blanco de níquel 
-          P.mb-0 22% Níquel ........ algo más blanco que el anterior 
-          P.mb-0 18% Níquel ........ Blanco 
-          P.mb-0 10% Níquel ........ Blanco grisáceo 
-          P.mb-0 7 % Níquel ........ Blanco amarillento
+          P.mb-0 33 % Níquel......... Azul blanco 
+          P.mb-0 27 % Níquel ........ Blanco de níquel 
+          P.mb-0 22 % Níquel ........ Algo más blanco que el anterior 
+          P.mb-0 18 % Níquel ........ Blanco 
+          P.mb-0 10 % Níquel ........ Blanco grisáceo 
+          P.mb-0 7 % Níquel .......... Blanco amarillento
      
-        .col-md-4
+        .col-md-6.col-lg-4
           figure
             img(src="@/assets/curso/temas/tema1/14.png", alt="alt")
     
@@ -202,8 +202,8 @@
       p En principio el peltre era una aleación que contenía estaño y plomo en proporción de cuatro a seis veces de estaño por una de plomo. Actualmente se ha eliminado el plomo, mayormente porque daba un color oscuro a la aleación. Sustituyéndolo por cobre, antimonio o zinc. 
       p Aprovechando su bajo punto de fusión, suele utilizarse en bisutería para piezas de fundición centrifugada en moldes de caucho o de siliconas. 
 
-      .row.mb-5
-        .col-lg-7
+      .row.mb-5.justify-content-center
+        .col-lg-7.mb-3
           .tabla-a.color-acento-botones.bgr_6.mb-3.text-center
             table
               thead
@@ -271,9 +271,11 @@
 
           p Los puntos de fusión de estas aleaciones quedan comprendidos entre los 200 y los 250 °C aproximadamente.
                   
-        .col-lg-5
+        .col-md-6.col-lg-5.align-content-center
           figure
-            img(src="@/assets/curso/temas/tema1/16.png", alt="alt")  
+            img.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/16.png", alt="alt")  
+          figure
+            img.d-flex.d-lg-none(src="@/assets/curso/temas/tema1/15.png", alt="alt")  
     
     .bg_img_1
       .row.mb-3
@@ -281,16 +283,16 @@
           figure
             img(src="@/assets/template/fri.svg", alt="alt")
         .col.p-0
-          h4 Zamak
+          h4 <em>Zamak</em>
       
-      p El zamak es una aleación de zinc que incluye aluminio, magnesio y cobre. Conocido por su resistencia y durabilidad, se utiliza en bisutería, componentes automotrices y productos de consumo. Su fácil moldeabilidad permite obtener acabados detallados y atractivos.
+      p El <em>Zamak</em> es una aleación de zinc que incluye aluminio, magnesio y cobre. Conocido por su resistencia y durabilidad, se utiliza en bisutería, componentes automotrices y productos de consumo. Su fácil moldeabilidad permite obtener acabados detallados y atractivos.
 
-      .row.mb-5
-        .col-lg-5  
+      .row.mb-5.justify-content-center
+        .col-md-6.col-xl-5.mb-3 
           figure
             img(src="@/assets/curso/temas/tema1/17.png", alt="alt")
-        .col-lg-7 
-          p Aleaciones de zinc para fundición por inyección 
+        .col-xl-7 
+          p Aleaciones de zinc para fundición por inyección: 
           .tabla-a.color-acento-botones.bgr_6.mb-3.text-center
             table
               thead
@@ -311,7 +313,7 @@
                   td 95,9 al 96,5
                   td 3,4 al 4,1 
                   td 
-          p Las aleaciones de zinc, conocidas como Zamak, Zalmuc y Mazac, son comunes en bisutería, reemplazando al peltre. Estas aleaciones ofrecen mayor dureza, lo que facilita el pulido y acabado. Además, su punto de fusión es más elevado, oscilando entre 380 y 435°C. Esto requiere el uso de moldes vulcanizados con siliconas, ya que son los únicos capaces de soportar estas temperaturas al trabajar con las aleaciones de zinc en la fabricación de piezas
+          p Las aleaciones de zinc, conocidas como <em>Zamak</em>, <em>Zalmuc </em>y <em>Mazac</em>, son comunes en bisutería, reemplazando al peltre. Estas aleaciones ofrecen mayor dureza, lo que facilita el pulido y acabado. Además, su punto de fusión es más elevado, oscilando entre 380 y 435°C. Esto requiere el uso de moldes vulcanizados con siliconas, ya que son los únicos capaces de soportar estas temperaturas al trabajar con las aleaciones de zinc en la fabricación de piezas.
     
     .row.mb-3
       .col-auto
@@ -325,8 +327,8 @@
     .cajon.color-acento-botones.p-4.mb-4
       p.mb-0 Al principio interesaba más el aspecto del oro que sus verdaderas propiedades mecánico, se hicieron experimentos para obtener oro de diferentes colores y, efectivamente, se consiguieron tonalidades exóticas que nunca se han podido trabajar por no reunir un mínimo de propiedades mecánicas indispensables. 
 
-    .row.mb-5
-      .col-lg-7
+    .row.mb-5.justify-content-center
+      .col-xl-7.mb-3
         ol.lista-ol--cuadro.lista-ol--separador
           li.d-flex
             .lista-ol--cuadro__vineta.bgr_6.d-
@@ -339,28 +341,28 @@
           li.d-flex
             .lista-ol--cuadro__vineta.bgr_6.d-
               span 3
-            | El oro y la plata dan tonos de color verdosos, también se obtienen colores verdosos con aleaciones oro/plata/cadmio y oro/plata/cobre e incluso con oro/cobre/plata/cadmio. 
+            | El oro y la plata dan tonos de color verdosos, también se obtienen colores verdosos con aleaciones oro / plata / cadmio y oro / plata / cobre e incluso con oro / cobre / plata /cadmio. 
           li.d-flex
             .lista-ol--cuadro__vineta.bgr_6.d-
               span 4
-            | Con aleaciones oro/plata/cobre se consiguen colores amarillos fuertes.
+            | Con aleaciones oro / plata / cobre se consiguen colores amarillos fuertes.
           li.d-flex
             .lista-ol--cuadro__vineta.bgr_6.d-
               span 5
-            | Oro/plata/cobre da el color “rosé”.
+            | Oro / plata / cobre da el color “rosé”.
           li.d-flex
             .lista-ol--cuadro__vineta.bgr_6.d-
               span 6
-            | El color rosado americano, también llamado Hamilton, se consigue con aleaciones oro / plata/cobre/níquel/zinc. 
+            | El color rosado americano, también llamado Hamilton, se consigue con aleaciones oro / plata / cobre / níquel / zinc. 
           li.d-flex
             .lista-ol--cuadro__vineta.bgr_6.d-
               span 7
-            | El color rojo con oro/cobre 
+            | El color rojo con oro / cobre. 
           li.d-flex
             .lista-ol--cuadro__vineta.bgr_6.d-
               span 8
             | El oro blanco, con aleaciones en las que interviene el níquel, el paladio o ambos al mismo tiempo.
-      .col-lg-5.align-content-center
+      .col-md-8.col-xl-5.align-content-center
         figure
           img(src="@/assets/curso/temas/tema1/18.png", alt="alt")
     
@@ -387,8 +389,8 @@
             th PLATA
             th COBRE
             th DENSIDAD
-            th OBSERVACION
-            th FUSION
+            th NOTA
+            th FUSIÓN
         tbody.bgr_5
           tr
             td 750
@@ -425,7 +427,7 @@
                 th PLATA
                 th COBRE
                 th DENSIDAD
-                th FUSION
+                th FUSIÓN
             tbody.bgr_5
               tr
                 td 750
@@ -460,7 +462,7 @@
             th COBRE
             th ZINC
             th DENSIDAD
-            th FUSION
+            th FUSIÓN
         tbody.bgr_5
           tr
             td 750
@@ -514,7 +516,7 @@
                 th PLATA
                 th COBRE
                 th DENSIDAD
-                th FUSION
+                th FUSIÓN
             tbody.bgr_5
               tr
                 td 750
@@ -573,7 +575,7 @@
             th COBRE
             th ZINC
             th DENSIDAD
-            th FUSION
+            th FUSIÓN
         tbody.bgr_5
           tr
             td 750
@@ -629,8 +631,8 @@
 
     h3.bgr_1 El oro blanco  
 
-    .row.mb-5.mt-5
-      .col-lg-3
+    .row.mb-5.mt-5.justify-content-center
+      .col-md-8.col-lg-3.align-content-center
         figure
           img(src="@/assets/curso/temas/tema1/20.png", alt="alt")
       .col-lg-9.align-content-center
@@ -640,19 +642,19 @@
     
     p.text-bold Existen 3 tipos de aleaciones para oro blanco: 
 
-    .row.mb-5.p-4.bgr_2
+    .row.mb-5.p-4.bgr_2.justify-content-center
       .col-lg-9.align-content-center
         ul.lista-ul--color
           li.d-flex 
             i.fas.fa-check-circle.bgr
-            p.text-white.mb-0 Las que contienen níquel y no contienen paladio 
+            p.text-white.mb-0 Las que contienen níquel y no contienen paladio. 
           li.d-flex 
             i.fas.fa-check-circle.bgr
-            p.text-white.mb-0 Las que contienen paladio y no contienen níquel
+            p.text-white.mb-0 Las que contienen paladio y no contienen níquel.
           li.d-flex 
             i.fas.fa-check-circle.bgr
             p.text-white.mb-0 Las que son una mezcla de las dos anteriores Las aleaciones que contienen níquel son relativamente duras y presentan un color poco atractivo lo que hace poco menos que imprescindible un acabado con baño de Rodio (Rh). Y tienen una tendencia a romperse. Las aleaciones de oro blanco al paladio son más caras que las anteriores, pero si en realidad estamos tratando de sustituir el platino esta diferencia de precio no es tan importante, ya que tienen un buen color, similar al del platino, y son blandas y fáciles de trabajar.
-      .col-lg-3
+      .col-md-8.col-lg-3.align-content-center
         figure
           img(src="@/assets/curso/temas/tema1/21.png", alt="alt")
     
@@ -670,7 +672,7 @@
                 th PLATA
                 th COBRE
                 th PALADIO
-                th FUSION
+                th FUSIÓN
             tbody.bgr_5
               tr
                 td 750
@@ -697,7 +699,7 @@
       h5 Tabla 7
       span <em>Con níquel y paladio</em>
     
-    .tabla-a.color-acento-botones.bgr_6.mb-5.text-center
+    .tabla-a.color-acento-botones.bgr_6.mb-5.text-center.pst_2.pst_1
       table
         thead
           tr.bgr_4
@@ -708,7 +710,7 @@
             th ZINC
             th NIQUEL
             th DENSIDAD
-            th FUSION
+            th FUSIÓN
         tbody.bgr_5
           tr
             td 750
@@ -746,26 +748,26 @@
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       PasosB.color-acento-botones
         .row(titulo="").justify-content-center
-          .col-md-4
+          .col-md-6.col-xl-4.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/22.png', alt='Imagen de apoyo')
-          .col-md-6.mb-4.mb-md-0.text-white.align-content-center
+          .col-xl-6.mb-4.mb-md-0.text-white.align-content-center
             h3 Aleaciones de platino 
             p La ley del platino para joyería es de 950 milésimas y naturalmente con solo 50 milésimas de aleación son pocas las cosas que se pueden hacer. En la práctica, el platino para joyería se alea solo con cobre y, en algunos casos en los que se requiere una mayor dureza, se alea con iridio o con rutenio.
             p La primera aleación es prácticamente la única que se trabaja en Joyería, la segunda aleación es semidura, y la siguientes son aleaciones duras.
         .row(titulo="").justify-content-center
-          .col-md-4
+          .col-md-6.col-xl-4.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/23.png', alt='Imagen de apoyo')
-          .col-md-6.mb-4.mb-md-0.text-white.align-content-center
+          .col-xl-6.mb-4.mb-md-0.text-white.align-content-center
             h3 Aleaciones de plata  
             p La platería utiliza aleaciones de 925 y 800 milésimas, siendo la de 925 milésimas, conocida como "Sterling Silver", la más común para exportación. La plata se alea con metales de bajo punto de fusión, como estaño, plomo, indio y zinc, pero el cobre es el más adecuado para mejorar sus propiedades. A menudo, se añaden níquel y zinc para aumentar la dureza. Las aleaciones de plata tienden a absorber oxígeno, lo que dificulta la formación de aleaciones compactas. Para reducir el oxígeno antes de vaciar las aleaciones, se puede bajar la temperatura o usar aditivos reductores, como cobre fosforoso en una proporción de 0.5 g por kilo de plata. Este aditivo no es recomendable para aleaciones con níquel. Además, para evitar porosidades, es mejor vaciar las aleaciones de plata utilizando una llama reductora.
         .row(titulo="").justify-content-center
-          .col-md-4
+          .col-md-6.col-xl-4.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/24.png', alt='Imagen de apoyo')
-          .col-md-6.mb-4.mb-md-0.align-content-center
-            h3.text-white Las aleaciones más corrientes de plata 
+          .col-xl-6.mb-4.mb-md-0.align-content-center
+            h3.text-white Las aleaciones más corrientes de plata: 
             .tabla-a.color-acento-botones.bgr_6.mb-5.text-center
               table
                 thead
@@ -790,8 +792,8 @@
                     th COBRE
                     th ZINC
                     th NIQUEL
-                    th LATON 63%
-                    th ALPACA 50%
+                    th LATON 63 %
+                    th ALPACA 50 %
                     th DENSIDAD
                 tbody.bgr_5
                   tr
@@ -816,10 +818,10 @@
                    td 604
                    td 8,58
         .row(titulo="").justify-content-center
-          .col-md-4
+          .col-md-6.col-xl-4.mb-3
             figure
               img(src='@/assets/curso/temas/tema1/25.png', alt='Imagen de apoyo')
-          .col-md-6.mb-4.mb-md-0.align-content-center
+          .col-xl-6.mb-4.mb-md-0.align-content-center
             h3.text-white Aleaciones De plata “inoxidable”
             p.text-white Como ya se indicaba anteriormente uno de los mayores problemas de la plata es que se oxida con mucha facilidad. Un punto de partida para el que quiere experimentar puede ser el siguiente: 
             .tabla-a.color-acento-botones.bgr_6.mb-3.text-center

@@ -16,7 +16,7 @@ export default {
       tema: 'Las aleaciones y análisis en los metales preciosos',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> lea los siguientes enunciados y seleccione la respuesta que considere correcta.',
+        'Preguntas de opción múltiple: lea los siguientes enunciados y seleccione la respuesta que considere correcta.',
       barajarPreguntas: true,
       preguntas: [
         {

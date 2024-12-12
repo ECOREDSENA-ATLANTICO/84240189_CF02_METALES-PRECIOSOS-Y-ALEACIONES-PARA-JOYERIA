@@ -7,17 +7,17 @@
         span 7
       h1 Manejo de residuos
     
-    .row.mb-5
-      .col-lg-5
+    .row.mb-5.justify-content-center
+      .col-md-8.col-xl-5.mb-3
         figure
           img(src="@/assets/curso/temas/tema7/1.png", alt="alt")
-      .col-lg-7
+      .col-xl-7
         p Es muy difícil estandarizar y cuantificar la problemática ambiental en el sector de la joyería, lo cual puede adjudicarse principalmente a la complejidad y heterogeneidad propias de esta actividad productiva.
         p En las actividades de refinación y joyería se utilizan una gran variedad de sustancias y compuestos químicos en las operaciones de afinación, procesamiento del mineral y pulimento químico. Estos compuestos, suelen estar asociados a la generación de residuos, que generalmente se desechan solos o mezclados con líquidos de proceso, por una vez ha trabajado la aleación.
     
     p.text-bold.mb-5 Entre los principales problemas ambientales asociados a la refinación, procesamiento, manejo y disposición de residuos en la actividad de joyería se destacan:
 
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-md-6.col-xl-4.mb-4
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -64,24 +64,24 @@
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-acento-botones--borde.p-4(titulo="Vertimiento resultante de la refinación con ácido nítrico").text-white
         h4 Vertimiento resultante de la refinación con ácido nítrico
-        .row
-          .col-xl-6.mb-4
+        .row.justify-content-center
+          .col-md-8.col-xl-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema7/2.png', alt='Imagen de apoyo')
           .col-xl-6.align-content-center
             p.mb-0 Esta constituidos principalmente por nitratos de cobre y sodio. Se mezcla con las aguas de lavado para ser vertido directamente al alcantarillado sin previo tratamiento. 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Aguas de Lavado").text-white
-        h4 Aguas de Lavado
-        .row
-          .col-xl-6.mb-4
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Aguas de lavado").text-white
+        h4 Aguas de lavado
+        .row.justify-content-center
+          .col-md-8.col-xl-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema7/3.png', alt='Imagen de apoyo')
           .col-xl-6.align-content-center
             p.mb-0 Que en volumen son las más representativas y contiene contaminantes como jabón, yeso de joyería, residuos de ácidos en muy baja concentración H2SO4, soda caustica NaOH y/o etanol. En algunos talleres este vertimiento es decantado y sedimentado en un sistema de tanques para evitar pérdidas de piezas y material fino que se pierde en el lavado. Los sedimentos se recuperan cada seis meses por fundición o por métodos químicos. 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Emisiones gaseosas").text-white
         h4 Emisiones gaseosas
-        .row
-          .col-xl-6.mb-4
+        .row.justify-content-center
+          .col-md-8.col-xl-6.mb-4
             figure
               img(src='@/assets/curso/temas/tema7/4.png', alt='Imagen de apoyo')
           .col-xl-6.align-content-center

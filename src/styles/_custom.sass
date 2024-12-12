@@ -24,7 +24,13 @@
     transform: translateY(0px)
 
 .banner-interno__fondo
-    background-image: url(../assets/curso/portada/banner_interno.svg) !important
+  background-image: url(../assets/curso/portada/banner_interno.svg) !important
+.banner-principal
+  .container.tarjeta
+    @media (max-width: $bp-max-sm)
+      background-image: url(../assets/curso/portada/fondo-banner-principal_tablet.png) !important
+    @media (max-width: $bp-max-xs)
+      background-image: url(../assets/curso/portada/fondo-banner-principal_movil.png) !important
 
 
 //BACKGROUND CONTENIDOS//
@@ -35,6 +41,8 @@
     border-top-right-radius: 20px
     padding: 15px
     display: inline
+    @media (max-width: $bp-max-xs)
+      display: flex
   &_2
     background-image: url(../assets/curso/temas/tema1/7.png) !important
     background-repeat: no-repeat 
@@ -95,7 +103,7 @@
       background-color: #D2E1F1
   &_2
     position: relative
-    p, figure, slyder-f, .tarjeta, .linea-tiempo-d, .row
+    p, figure, slyder-f, .tarjeta, .linea-tiempo-d, .row, figcaption
       position: relative
     &::before
       content: ''
@@ -133,7 +141,14 @@
       height: calc(100% + 50px)
       background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(210,225,241,1) 100%);
 
-      
+.pst
+  @media (max-width: $bp-max-lg)
+    width: 100% !important
+  &_1
+    @media (max-width: $bp-max-xs)
+      font-size: 0.8em
+
+
 
 
 ///////// Card hover --------------------------------------
@@ -193,5 +208,3 @@
   background-color: #B0C0D2
 .tabs-b__content-item
   background-color: $color-primario
-.tabla-a table
-  min-width: auto 
