@@ -200,7 +200,7 @@ export default {
     {
       referencia:
         'Alcina B, J. (1989). Los metales en la joyería moderna. 2 ed. Barcelona: s.n. p. 65-124. Alvarado, R.(2011). Manual de Buenas Prácticas de Joyerías. Bolivia, Ed. Nitrance publicidad.Normas técnicas sectorial',
-      link: 'http:// noticias.juridicas.com/base_datos/Admin/rd197-1988.html',
+      link: '',
     },
     {
       referencia:
@@ -228,20 +228,20 @@ export default {
     },
     {
       referencia:
-        'Montero simó, Rosa. riesgos higiénicos en el sector de la joyería. centro de seguridad e higiene en el trabajo de córdoba consejería de empleo y desarrollo tecnológico junta de andalucía.',
+        'Montero Simó, Rosa. Riesgos higiénicos en el sector de la joyería. Centro de seguridad e higiene en el trabajo de córdoba consejería de empleo y desarrollo tecnológico junta de Andalucía.',
       link:
         'http://www.insht.es/InshtWeb/Contenidos/Documentacion/TextosOnline/Rev_ INSHT/2001/12/seccionTecTextCompl2.pdf',
     },
     {
       referencia:
-        'Prevención de riesgos en el rubro de joyería y bisutería. subgerencia de capacitación y publicaciones.',
+        'Prevención de riesgos en el rubro de joyería y bisutería. Subgerencia de capacitación y publicaciones.',
       link:
         'https://www.yumpu.com/es/document/view/14712509/prevencion-de-riesgos-en-el-rubro-dejoyeria-y-bisuteria-achs',
     },
     {
       referencia:
         'Real Decreto 197/1988, por el que se Aprueba el Reglamento de la ... Retrieved 12,2016, from ',
-      link: 'http://legislacionespanola.leyderecho.org/',
+      link: 'https://www.boe.es/buscar/doc.php?id=BOE-A-1988-6186',
     },
   ],
   creditos: [
