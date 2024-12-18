@@ -14,7 +14,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 La fundición es la operación que permite lograr la fusión de los metales, se realiza muy comúnmente en la preparación de aleaciones preciosas, en las soldaduras y en las recuperaciones. En el ámbito de la joyería es la primera fase del proceso de fabricación y tiene por objeto obtener las aleaciones metálicas con las formas básicas a partir de las cuales se procesarán las piezas de joyería; de manera general la operación consiste en calentar los metales que componen una aleación hasta su punto de fusión, para luego verter el metal fundido sobre un molde que le dará una determinada forma. 
     
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -26,7 +26,7 @@
         p Durante el proceso de fundición es muy importante tener una atmosfera controlada en lo referido a la presencia de oxígeno en el ambiente. Esto se debe a varios problemas relacionados con el comportamiento del oxigeno y de los metales durante la fundición. 
 
         p.bgr_8.p-4 Cuando un metal es sometido a altas temperaturas tiende a reaccionar con facilidad con el oxígeno formando óxidos metálicos inestables (en especial óxidos de cobre) los cuales pueden generar problemas de calidad, así mismo, la oxidación podría afectar a la ley de la aleación, esto se debe a que el oxígeno reaccionara selectivamente con los metales nobles y por tanto la proporción de metales nobles presentes en la aleación aumentara en relación a los metales que se oxidan, siendo esta situación desfavorable para el productor. Por otro lado, se debe tomar en consideración que cuando los metales se encuentran en estado líquido tienden a absorben gases en su interior, siendo el oxígeno el elemento que es absorbido en mayor proporción, (especial interés en el metal de plata que es el metal que más absorbe oxigeno).
-      .col-md-8.col-xl-4
+      .col-md-8.col-xl-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/temas/tema3/2.png", alt="alt")
     
@@ -45,7 +45,7 @@
             i.fas.fa-check-circle.bgr
             p #[strong Formación de óxidos al interior de la aleación:] cuando es absorbido por el metal el oxígeno puede reaccionar con algunos componentes al interior de la aleación (especialmente el cobre) formando óxidos que son muy difíciles de remover y que inciden en la calidad de los productos de manera muy negativa.
     
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -59,7 +59,7 @@
         img(src="@/assets/curso/temas/tema3/4.png", alt="alt")
       figcaption Fuente Sena 2024
 
-    .row.mb-3.mt-5
+    .row.mb-3.mt-5(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -70,12 +70,12 @@
       .col-lg-5.mb-3.align-content-center
         figure
           img(src="@/assets/curso/temas/tema3/5.png", alt="alt")
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         p La tecnología empleada para fundir aleaciones de metales preciosos en joyería es muy diversa; puede ir desde la utilización de sopletes hasta la aplicación de equipos mucho más sofisticados como los hornos de inducción. La aplicación de determinada tecnología dependerá esencialmente de la empresa, del volumen de producción y de los parámetros de calidad que se necesiten alcanzar. 
     
     p.text-bold Existen tres tecnologías de fundición aplicables en la industria joyera:
 
-    .row.mb-3.mt-5
+    .row.mb-3.mt-5(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -85,10 +85,11 @@
     .row.mb-5.justify-content-center
       .col-xl-8.order-2.order-xl-1
         p.mb-5 La fundición con soplete consiste en aplicar la llama directamente sobre el metal depositado en el crisol. Todos los sopletes poseen una estructura y forma de funcionamiento bastante similar, poseen un mecanismo que produce una mezcla gaseosa inflamable conformada por dos tipos de sustancias, cuando esta mezcla gaseosa sale a través de la boquilla del soplete, y con el aporte de una fuente inicial de calor, se genera una llama como producto de la reacción de oxidación de la mezcla gaseosa.
-        h3.bgr_1 Combustibles 
+        div(data-aos="fade-right")
+          h3.bgr_1 Combustibles 
         p.text-bold.mt-5 Los combustibles son las sustancias que entran en combustión, es decir que se oxidan. Los principales combustibles utilizados en los sopletes de fundición de metales preciosos son:
         p #[strong Hidrogeno:] que puede generar llamas con temperaturas muy elevadas y es considerado como el combustible más limpio, es el combustible más recomendado para fundir aleaciones de platino, sin embargo, es un gas caro y poco disponible en nuestro medio. 
-      .col-md-6.col-xl-4.align-content-center.order-1.order-xl-2.mb-3
+      .col-md-6.col-xl-4.align-content-center.order-1.order-xl-2.mb-3(data-aos="fade-left")
         figure
           img(src="@/assets/curso/temas/tema3/6.png", alt="alt")
     
@@ -105,7 +106,8 @@
           div(numero="3" titulo="Acetileno")
             p Que, si bien pueden generar llamas con temperaturas muy elevadas, es considerado como el combustible menos limpio puesto que su combustión genera muchos subproductos de carbón que pueden afectar negativamente en especial a las aleaciones de oro y platino.
 
-    h3.bgr_1 Capacidad 
+    div(data-aos="fade-right")
+      h3.bgr_1 Capacidad 
 
     p.mt-5 La cantidad de metal que se puede fundir a través de un soplete es limitada, a manera de referencia se puede decir que lo sopletes de fundición que alcanzan las temperaturas más elevadas pueden fundir alrededor de 250 grs de plata 925 en un ciclo de fundición, desde luego esto depende de muchos factores: tipo de soplete, tipo de combustible, forma de alimentación del oxígeno, tamaños del crisol, temperaturas de fusión de los metales componentes de la aleación, etc. 
     
@@ -135,7 +137,7 @@
     
     
     
-    .row.mb-3.mt-5
+    .row.mb-3.mt-5(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -145,11 +147,11 @@
     .row.mb-5.justify-content-center
       .col-xl-8
         p Los hornos eléctricos de fundición para joyería son unidades compactas y relativamente económicas. Generan calor debido al paso de corriente eléctrica a través de una resistencia eléctrica que se encuentra alojada en una cámara donde se coloca el crisol que a su vez contiene el metal a fundir, el calor generado por la resistencia calienta el crisol y este a su vez calienta el metal en su interior. La capacidad de los hornos eléctricos está en el rango de 700 a 2500 gramos de plata 925 por ciclo de fundición (esta cantidad depende de los metales con que se trabaje). 
-      .col-md-8.col-xl-4
+      .col-md-8.col-xl-4(data-aos="fade-left")
         figure
           img(src="@/assets/curso/temas/tema3/8.png", alt="alt")
     
-    .row.mb-3.mt-5
+    .row.mb-3.mt-5(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -159,7 +161,7 @@
     p.mb-5 Los hornos eléctricos permiten un mejor desempeño y control de las variables del proceso de fundición respecto de los sopletes, adicionalmente, al ser programables permiten cierta autonomía al personal que opera el equipo. 
 
     .row.mb-5.justify-content-center
-      .col-md-8.col-lg-4.mb-3
+      .col-md-8.col-lg-4.mb-3(data-aos="fade-right")
         figure
           img(src="@/assets/curso/temas/tema3/9.png", alt="alt")
       .col-lg-8
@@ -171,7 +173,7 @@
           div(numero="3" titulo="Homogeneizado")
             p Es un horno eléctrico, el método de homogeneizado más común consiste en revolver manualmente el metal fundido con una varilla de grafito, desde luego este no es el método ideal, algunas unidades están equipadas con un agitador mecánico al interior del crisol mejorando su desempeño. Tiempo de operación: para fines prácticos se puede considerar que un horno eléctrico complementará un ciclo completo de fundición en un tiempo de 30 a 40 minutos, sin embargo, cuando se realizan ciclos seguidos, el tiempo de operación disminuye a 20 minutos luego del primer ciclo.
       
-    .row.mb-3.mt-5.mb-5
+    .row.mb-3.mt-5.mb-5(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -183,7 +185,7 @@
         .col-lg-7.align-content-center.mb-3
           p La tecnología de inducción ha sido empleada por mucho tiempo en la industria de la fundición de metales a gran escala, sin embargo, no fue sino hasta el desarrollo de los semiconductores que fue posible la fabricación de equipos más pequeños adecuados a las escalas de producción de la industria de joyería. 
           p.mb-0 La fundición por inducción se trata de un sistema electromagnético donde una bomba de inducción que puede utilizar corriente con frecuencias altas y medias induce el movimiento de los electrones de los átomos metálicos y este movimiento genera el calor suficiente para fundir el metal. 
-        .col-md-6.col-lg-3.align-content-center
+        .col-md-6.col-lg-3.align-content-center(data-aos="fade-left")
           figure
             img(src="@/assets/curso/temas/tema3/10.png", alt="alt")
 

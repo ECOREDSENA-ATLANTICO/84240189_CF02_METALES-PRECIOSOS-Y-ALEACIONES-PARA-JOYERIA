@@ -33,7 +33,7 @@
             figure
               img(src='@/assets/curso/temas/tema4/3.png', alt='Imagen de apoyo')
       
-    .row.mb-3.mt-5
+    .row.mb-3.mt-5(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -42,7 +42,7 @@
     
     p Todos los metales utilizados por el joyero, al recocerlos o soldarlos, si no se han tomado precauciones previas, se oxidan y cambian de color, además para eliminar los óxidos de estos metales y también los restos de fundentes, se utilizan una serie de soluciones químicas, llamadas de decapado (de blanqueamiento o de desoxidación). 
     
-    .row.mb-3.mt-5
+    .row.mb-3.mt-5(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -53,7 +53,7 @@
       .col-md-6.col-xl-4.align-content-center.mb-3
         figure
           img(src='@/assets/curso/temas/tema4/6.png', alt='Imagen de apoyo')
-      .col-xl-8
+      .col-xl-8(data-aos="fade-left")
         p Existen múltiples soluciones para el decapado, se debe tener en cuenta para que metales sirven más efectivamente y las mínimas condiciones de seguridad de acuerdo a las reacciones que se producen al ser preparadas y utilizadas, algunas de las fórmulas que existen son:
         ul.lista-ul--color
           li.d-flex 
@@ -102,12 +102,12 @@
         
         p Otra fórmula es:
         p.text-bold Persulfato amónico: Ácido sulfúrico, Agua.        
-      .col-md-6.col-xl-3.align-content-center.order-1.order-xl-2.mb-3
+      .col-md-6.col-xl-3.align-content-center.order-1.order-xl-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/7.png', alt='Imagen de apoyo')
 
     .row.mb-3.justify-content-center
-      .col-md-6.col-lg-3.mb-3.align-content-center
+      .col-md-6.col-lg-3.mb-3.align-content-center(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema4/8.png', alt='Imagen de apoyo')
       .col-lg-9.col-xl-8.align-content-center
@@ -138,7 +138,7 @@
               span 2
             | Ácido sulfúrico (concentrado) : Ácido nítrico concentrado.
           
-      .col-md-8.col-lg-4.align-content-center
+      .col-md-8.col-lg-4.align-content-center(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema4/9.png', alt='Imagen de apoyo')
     

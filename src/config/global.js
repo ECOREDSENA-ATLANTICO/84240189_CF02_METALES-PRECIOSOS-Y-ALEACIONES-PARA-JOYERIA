@@ -318,7 +318,7 @@ export default {
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
-          nombre: 'Carlo Andrés Díaz Pinto',
+          nombre: 'Carlos Andrés Díaz Pinto',
           cargo: 'Desarrollador <em>Fullstack</em>',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',

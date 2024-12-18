@@ -10,7 +10,7 @@
     p.text-bold.mb-5 Los metales nunca se trabajan absolutamente puros, por dos razones:
 
     .row.mb-5.justify-content-center
-      .col-md-6.col-lg-4.mb-3
+      .col-md-6.col-lg-4.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/1.svg', alt='Imagen decorativa')
       .col-lg-8.align-content-center
@@ -33,7 +33,8 @@
     
     p.mb-5 En esta oportunidad vamos a dividir la información sobre las aleaciones en dos grupos: aleaciones que contienen metales nobles y aleaciones que no los contienen.
 
-    h3.bgr_1 Aleaciones que no contienen metales nobles 
+    div(data-aos="fade-right")
+      h3.bgr_1 Aleaciones que no contienen metales nobles 
 
     p.mt-4 Entre estas aleaciones se destacan las siguientes:
     p El bronce (cobre y estaño), el latón (cobre y zinc) y la alpaca (cobre, níquel y zinc) son aleaciones versátiles con aplicaciones industriales, decorativas y eléctricas por su resistencia y estética.
@@ -42,11 +43,16 @@
       .col-md-3.align-content-center
         figure
           img(src='@/assets/curso/temas/tema1/6.png', alt='Imagen de apoyo')
-      .col-md-9.mb-4.mb-md-0.align-content-center
-        h3 Bronce
+      .col-md-9.mb-4.mb-md-0.align-content-centerdiv(data-aos="fade-left")
+        .row.mb-3
+          .col-auto
+            figure
+              img(src="@/assets/template/fri.svg", alt="alt")
+          .col.p-0
+            h3 Bronce
         p.mb-0 El bronce es una aleación de cobre y estaño, conocida por su resistencia a la corrosión y durabilidad. Se utiliza en monedas, estatuas y componentes de maquinaria, siendo valorado tanto en artesanía como en la industria por su color dorado y propiedades mecánicas.
 
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -192,7 +198,7 @@
             img(src="@/assets/curso/temas/tema1/14.png", alt="alt")
     
     .bg_img
-      .row.mb-3
+      .row.mb-3(data-aos="fade-right")
         .col-auto
           figure
             img(src="@/assets/template/fri.svg", alt="alt")
@@ -271,14 +277,14 @@
 
           p Los puntos de fusión de estas aleaciones quedan comprendidos entre los 200 y los 250 °C aproximadamente.
                   
-        .col-md-6.col-lg-5.align-content-center
+        .col-md-6.col-lg-5.align-content-centerdiv(data-aos="fade-left")
           figure
             img.d-none.d-lg-flex(src="@/assets/curso/temas/tema1/16.png", alt="alt")  
           figure
             img.d-flex.d-lg-none(src="@/assets/curso/temas/tema1/15.png", alt="alt")  
     
     .bg_img_1
-      .row.mb-3
+      .row.mb-3(data-aos="fade-right")
         .col-auto
           figure
             img(src="@/assets/template/fri.svg", alt="alt")
@@ -288,7 +294,7 @@
       p El <em>Zamak</em> es una aleación de zinc que incluye aluminio, magnesio y cobre. Conocido por su resistencia y durabilidad, se utiliza en bisutería, componentes automotrices y productos de consumo. Su fácil moldeabilidad permite obtener acabados detallados y atractivos.
 
       .row.mb-5.justify-content-center
-        .col-md-6.col-xl-5.mb-3 
+        .col-md-6.col-xl-5.mb-3div(data-aos="fade-right") 
           figure
             img(src="@/assets/curso/temas/tema1/17.png", alt="alt")
         .col-xl-7 
@@ -315,7 +321,7 @@
                   td 
           p Las aleaciones de zinc, conocidas como <em>Zamak</em>, <em>Zalmuc </em>y <em>Mazac</em>, son comunes en bisutería, reemplazando al peltre. Estas aleaciones ofrecen mayor dureza, lo que facilita el pulido y acabado. Además, su punto de fusión es más elevado, oscilando entre 380 y 435°C. Esto requiere el uso de moldes vulcanizados con siliconas, ya que son los únicos capaces de soportar estas temperaturas al trabajar con las aleaciones de zinc en la fabricación de piezas.
     
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -362,11 +368,12 @@
             .lista-ol--cuadro__vineta.bgr_6.d-
               span 8
             | El oro blanco, con aleaciones en las que interviene el níquel, el paladio o ambos al mismo tiempo.
-      .col-md-8.col-xl-5.align-content-center
+      .col-md-8.col-xl-5.align-content-centerdiv(data-aos="fade-left")
         figure
           img(src="@/assets/curso/temas/tema1/18.png", alt="alt")
     
-    h3.bgr_1 Oro de Color 750 milésimas (18 kilates) 
+    div(data-aos="fade-right")
+      h3.bgr_1 Oro de Color 750 milésimas (18 kilates) 
 
     p.mb-5.mt-5 Gracias a las propiedades del cobre y de la plata, estas aleaciones de 750 milésimas o 18 kilates, pueden tener desde un color verde hasta un rosa pasando por el amarillo. Si las 250 milésimas de aleación con todas de plata, el color será verde. 
 
@@ -629,13 +636,14 @@
     
     p.mb-5 Estas aleaciones son más utilizadas para desarrollo de cadenas a máquina.
 
-    h3.bgr_1 El oro blanco  
+    div(data-aos="fade-right")
+      h3.bgr_1 El oro blanco  
 
     .row.mb-5.mt-5.justify-content-center
       .col-md-8.col-lg-3.align-content-center
         figure
           img(src="@/assets/curso/temas/tema1/20.png", alt="alt")
-      .col-lg-9.align-content-center
+      .col-lg-9.align-content-centerdiv(data-aos="fade-left")
         p A consecuencia de la subida de los costos y, porque no decirlo, a la difícil tecnología del platino, cada vez ha ido tomando un mayor incremento las aleaciones de oro blanco. 
         p Cuando se hace referencia a la difícil tecnología del platino, se habla mayormente a su elevado punto de fusión, a su aleación prácticamente única, ya que se trabaja solo a 950 milésimas, y a la facilidad con que se vuelve frágil.  El oro blanco no ha sido la solución a los problemas, pero por lo menos permite elegir entre un cierto número de posibilidades.
         p.mb-0 Para el oro blanco existen tantas leyes como para el oro de color. Las aleaciones más utilizadas son las de 750 y 585 milésimas. 
@@ -654,7 +662,7 @@
           li.d-flex 
             i.fas.fa-check-circle.bgr
             p.text-white.mb-0 Las que son una mezcla de las dos anteriores Las aleaciones que contienen níquel son relativamente duras y presentan un color poco atractivo lo que hace poco menos que imprescindible un acabado con baño de Rodio (Rh). Y tienen una tendencia a romperse. Las aleaciones de oro blanco al paladio son más caras que las anteriores, pero si en realidad estamos tratando de sustituir el platino esta diferencia de precio no es tan importante, ya que tienen un buen color, similar al del platino, y son blandas y fáciles de trabajar.
-      .col-md-8.col-lg-3.align-content-center
+      .col-md-8.col-lg-3.align-content-centerdiv(data-aos="fade-left")
         figure
           img(src="@/assets/curso/temas/tema1/21.png", alt="alt")
     
@@ -733,7 +741,7 @@
           
     p.text-bold.mb-5 Las aleaciones más indicadas para cadenas y fundición a la cera perdida son:
 
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -743,7 +751,7 @@
     p Las dos aleaciones son para usos diversos, pero la primera es más indicada para cadenas y fundición a la cera perdida.
 
 
-    .tarjeta.bgr_7.p-4
+    .tarjeta.bgr_7.p-4(data-aos="zoom-in")
       //- PasosB debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       PasosB.color-acento-botones

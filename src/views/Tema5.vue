@@ -9,14 +9,14 @@
     
     .bg_img_3
       .row.mb-5.justify-content-center
-        .col-md-8.col-lg-4.mb-3
+        .col-md-8.col-lg-4.mb-3(data-aos="fade-right")
           figure
             img(src='@/assets/curso/temas/tema5/1.svg', alt='Imagen de apoyo')
         .col-lg-7.align-content-center
           p Los ensayos son fundamentales en todo proceso químico y en este caso como lo es la joyería, no es la excepción. La necesidad de reconocer cada metal (análisis cualitativo) y determinar la proporción en que se encuentra presente (análisis cuantitativo) nos permite determinar si la aleación con la que estamos trabajando es la correcta o no. 
           p.mb-0 Los ensayos son aplicables al metal, a las aleaciones o en algunos casos a las soluciones como los baños de oro. Un error de parte química en los metales preciosos puede resultar muy costoso, un análisis mal hecho puede ser una pérdida significativa, por esto se hace necesario que este servicio lo desarrolle una persona o una empresa responsables.
     
-    .row.mb-3.mt-5
+    .row.mb-3.mt-5(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -28,26 +28,26 @@
         p Todo tipo de análisis o proceso químico parte de una muestra, es indispensable que la muestra tenga la misma cualidad, que sea representativa. Si se va a analizar un lingote de oro y solo se sacan unas virutas, esta muestra solo arrojará los resultados del sitio de donde se sacó la viruta y no mostrará realmente el análisis del lingote; si se analiza un líquido, antes de tomar esta muestra el líquido tiene que ser agitado hasta que esté perfectamente mezclado, pues si esto no es así nos arrojará falsos resultados. 
         .cajon.color-primario.p-4
           p.mb-0 Para el análisis de un lingote, se hace necesario que este sea fundido las veces que sea necesario para obtener una mezcla lo más homogénea posible. 
-      .col-md-6.col-xl-3.order-1.order-xl-2.mb-3
+      .col-md-6.col-xl-3.order-1.order-xl-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema5/2.png', alt='Imagen de apoyo')
     
     .row.mb-5.justify-content-center
-      .col-md-4.col-xl-4.mb-3
+      .col-md-4.col-xl-4.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/3.png', alt='Imagen de apoyo')
       .col-xl-8
         p Cuando analizamos polvo, tenemos que asegurarnos que este esté bien calcinado, ya que, de no ser así, el error se daría por las diferencias de peso habidas antes y después de quemar. Para hacer la comprobación se puede poner una cierta cantidad de polvo sobre una placa metálica, libre de impurezas y grasa, se calienta por debajo, hasta que todo el polvo llegue al rojo (600 a 800 grados Centígrados). Si durante esta operación hay desprendimiento de humo procedente del polvo que se está tratando será evidente que no estaba bien calcinado, lo cual demostraría que este no podrá ser representativo, lo cual nos llevará a quemar de nuevo todo el polvo. A continuación, luego de estar el polvo bien calcinado, deberá comprobarse si el molido y tamizado de este están bien hechos, de lo contrario aparecerán unas bolas metálicas que alterarán los resultados. Se hace necesario que, si el molido y tamizado están bien hechos, se realice una inspección óptica, para comprobar, sin embargo, se recomienda mezclarlo convenientemente antes de seguir adelante.
         p Las referencias que anteriormente se han nombrado son sobre muestras destinadas a ser destruidas.
         p En la actualidad existen otros tipos de muestras a través de aparatos como modernos aparatos de rayos X, con las cuales no es necesario destruir las muestras.
-        .row.mb-3
+        .row.mb-3(data-aos="fade-right")
           .col-auto
             figure
               img(src="@/assets/template/fri.svg", alt="alt")
           .col.p-0
             h4 Análisis Cualitativo
         p Nos indica si un determinado metal o material, está o no presente en la muestra, pero no nos indica en qué cantidad.
-        .row.mb-3
+        .row.mb-3(data-aos="fade-right")
           .col-auto
             figure
               img(src="@/assets/template/fri.svg", alt="alt")
@@ -56,7 +56,7 @@
         p Se procede a limar cuidadosamente en un lugar de la pieza que no esté a la vista, para no estropearla, y a continuación se toca el lugar limado con una gota de reactivo. 
         p El objetivo de limar la pieza ya que puede tener un baño de oro de varias micras y, en este caso, su apariencia exterior es exactamente igual que la de otra pieza que este fabricada en ese metal. Incluso si dejamos caer una gota de ácido nítrico sobre la pieza, de latón o cobre, chapada, no habría ninguna reacción.
     
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -68,12 +68,12 @@
         p La piedra de toque es, generalmente, un basalto negro procedente de Silesia, cortado en forma rectangular, con unas medidas aproximadas de 50x30x7 mm. de superficie mate y algo áspera. Es muy resistente a una amplia serie de ácidos. 
         p.text-bold Su empleo es muy sencillo: 
         p Uno de los bordes de la pieza o trozo de metal que se quiere comprobar, se frota contra la piedra de forma que queden trazas del metal marcadas en la superficie de la misma. A continuación, se frota también otro metal cualitativa y cuantitativamente conocido. Dejando las trazas del mismo junto a las del primero, separadas ambas por el espacio justo y necesario para que no se confundan unas con otras. Seguidamente se aplican unas gotas del reactivo de forma que cubran, al mismo tiempo, parte de las trazas de los dos metales, del que se quiere probar y del de referencia.
-      .col-md-6.col-xl-3.order-1.order-xl-2.mb-3
+      .col-md-6.col-xl-3.order-1.order-xl-2.mb-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema5/4.png', alt='Imagen de apoyo')
     
     .row.mb-3.justify-content-center
-      .col-md-8.col-xl-4.mb-3
+      .col-md-8.col-xl-4.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/5.png', alt='Imagen de apoyo')
       .col-xl-8
@@ -167,12 +167,12 @@
                 td Agua destilada
                 td partes
               
-      .col-md-8.col-xl-4.align-content-center
+      .col-md-8.col-xl-4.align-content-center(data-aos="fade-left")
         figure
           img.d-none.d-xl-flex(src='@/assets/curso/temas/tema5/6.png', alt='Imagen de apoyo')
           img.d-flex.d-xl-none(src="@/assets/curso/temas/tema5/16.png", alt="alt")
     .row.mb-5.justify-content-center
-      .col-md-6.col-xl-5.order-2.order-xl-1.mb-3
+      .col-md-6.col-xl-5.order-2.order-xl-1.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/7.png', alt='Imagen de apoyo')
       .col-xl-7.order-1.order-xl-2.mb-3
@@ -253,11 +253,11 @@
             .lista-ol--cuadro__vineta.bgr_6.d-
               span 14
             | Paladio, rojo intenso oscuro. 
-      .col-md-6.col-lg-5.col-xl-4.align-content-center
+      .col-md-6.col-lg-5.col-xl-4.align-content-center(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema5/8.png', alt='Imagen de apoyo')
 
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -265,7 +265,7 @@
         h4 Para distinguir la plata 
     
     .row.mb-5.justify-content-center
-      .col-md-6.col-lg-4.col-xl-4.align-content-center.order-2.order-xl-1.mb-3
+      .col-md-6.col-lg-4.col-xl-4.align-content-center.order-2.order-xl-1.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/9.png', alt='Imagen de apoyo')
       .col-xl-8.order-1.order-xl-2.mb-3
@@ -287,14 +287,14 @@
 
     .row.mb-5.justify-content-center
       .col-xl-9 
-        .row.mb-3
+        .row.mb-3(data-aos="fade-right")
           .col-auto
             figure
               img(src="@/assets/template/fri.svg", alt="alt")
           .col.p-0
             h4 Análisis cuantitativos
         p Este análisis nos indica en que cantidades de un determinado componente se encuentra presente en la formula o en la muestra.
-        .row.mb-3
+        .row.mb-3(data-aos="fade-right")
           .col-auto
             figure
               img(src="@/assets/template/fri.svg", alt="alt")
@@ -306,7 +306,7 @@
         figure
           img(src='@/assets/curso/temas/tema5/10.png', alt='Imagen de apoyo')
 
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -315,7 +315,7 @@
     p Este sistema solo se debe emplear si no existe otra posibilidad, sus resultados son poco precisos, aunque muy superiores a los conseguidos por medio de la piedra de toque.
 
     .row.mb-5.justify-content-center
-      .col-md-6.col-lg-4.col-xl-4.align-content-center.mb-3
+      .col-md-6.col-lg-4.col-xl-4.align-content-center.mb-3(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema5/11.png', alt='Imagen de apoyo')
       .col-xl-8
@@ -369,7 +369,7 @@
             i.lista-ul__vineta
             | Se divide el peso final por el peso inicial. El cociente obteniendo multiplicado por 1000 indicará el título en milésimas.  
 
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -377,7 +377,7 @@
         h4 Ensayo del oro aluvionar por gravimetría y copelación
     p.mb-5 El oro aluvionar es el que familiarmente se llama “pepitas de oro” generalmente, se encuentra aleado con otros metales, especialmente con plata. A fin de tener un conjunto homogéneo, se funden todas las pepitas de oro en un solo lingote. Para estos tipos de procedimientos siempre se deben tomar toda clase de precauciones para evitar la contaminación del material a analizar.
 
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -388,17 +388,17 @@
       .col-md-6.col-lg-3.mb-3.align-content-center
         figure
           img(src='@/assets/curso/temas/tema5/12.png', alt='Imagen de apoyo')
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         p Hay pocos metales que sean más densos que el oro. La densidad del oro puro de 24 quilates es aproximadamente de 19,3 g/ml, lo que es mucho más que la mayoría de los metales. Medir la densidad de la pieza puede ayudarte a saber si es oro o no lo es. Como regla general, cuanto más densa sea la pieza, más puro es el oro. Esta prueba no debe realizarse con anillos u otros objetos que tengan joyas engarzadas. Lee la sección “Advertencias” para encontrar información importante respecto a la prueba de densidad.
 
     .row.mb-5.justify-content-center
       .col-lg-8
         LineaTiempoD.color-primario.mb-5
-          div(numero="1" titulo="Prueba de densidad")
+          div(numero="1" titulo="Prueba de densidad paso 1")
             p Comprueba el peso de la pieza. Si no tienes tu propia báscula de precisión o una balanza, puedes pedir en una joyería que pesen la pieza y, normalmente, lo harán gratis.  
-          div(numero="2" titulo="Prueba de densidad")
+          div(numero="2" titulo="Prueba de densidad paso 2")
             p Llena una probeta con agua. Es muy útil que la probeta, o el recipiente transparente que uses, tenga una graduación en mililitros. Así te será más fácil hacer la medición para esta prueba. No importa la cantidad de agua que uses en el recipiente, mientras pueda cubrir la pieza. El agua subirá de nivel cuando sumerjas la pieza. Es muy importante averiguar el nivel exacto del agua antes y después de sumergir la pieza.  
-          div(numero="3" titulo="Prueba de densidad")
+          div(numero="3" titulo="Prueba de densidad paso 3")
             p Sumerge la pieza en la probeta. Anota el nivel de agua y calcula la diferencia entre el anterior y el nuevo en mililitros.
           div(numero="4" titulo="Fórmula para la densidad")
             p Usa la siguiente fórmula para calcular la densidad.
@@ -419,11 +419,11 @@
           div(numero="6" titulo="Video")
             p Balanza analizar pureza del oro radwag <a href="https://www.youtube.com/watch?v=N-r5bACTxMk" target="_blank">consultar video</a> 
             P Densidad por peso casero <a href="https://www.youtube.com/watch?v=ApPRH_EtjF0" target="_blank">consultar video</a>
-      .col-md-6.col-lg-4
+      .col-md-6.col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/temas/tema5/13.png', alt='Imagen de apoyo')
     
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -432,7 +432,8 @@
     
     p.mb-5 Resulta imprescindible, cuando estamos trabajando los metales preciosos, que debemos realizar una adición de otros metales para que el metal fino tenga características mecánicas apropiadas para su transformación, aquí les describimos las principales fórmulas para obtener lingotes de en la ley que sea necesaria:
 
-    h3.bgr_1 Subir el título con oro fino
+    div(data-aos="fade-right")
+      h3.bgr_1 Subir el título con oro fino
 
     p.mt-4.mb-5 La siguiente formula resulta muy útil cuando se quiere convertir una ley baja en otra alta, añadiendo oro fino. Se debe tener presente que 1000 milésimas corresponden a la ley del oro fino y que, en este caso, la ley deseada es siempre la ley más alta.
 
@@ -442,15 +443,16 @@
     p Queremos aumentar un lingote de 20 gr de 500 milésimas (ley baja) a 750 milésimas (ley alta). Se tendrá que añadir 20 gr de oro fino. 
     p.mb-5 Así pues, al añadir 20 gr de oro fino a los 20 gr de 500 milésimas que ya se tenían en un principio, se obtiene un lingote de 40 gr de aleación de 18 kilates (750 milésimas). 
 
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
       .col.p-0
         h4 Disminuir con aleación un título más alto
     
-    p La siguiente formula permite rebajar una ley alta añadiendo liga al metal. En este caso, la ley baja es la ley deseada. 
-    p Por ejemplo, si es necesario pasar de 25 gr de oro de 22 kilates a 18 kilates, se aplica la formula.
+    p La fórmula permite rebajar una ley alta añadiendo liga al metal. En este caso, la ley baja es la ley deseada.
+    
+    p Por ejemplo, si es necesario pasar de 25 gr de oro de 22 kilates a 18 kilates, se aplica formula.
 
 
 

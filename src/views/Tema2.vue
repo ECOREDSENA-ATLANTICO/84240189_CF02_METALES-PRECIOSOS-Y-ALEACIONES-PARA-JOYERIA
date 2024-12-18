@@ -7,7 +7,7 @@
         span 2
       h1 Soldadura
     
-    .row.mb-3
+    .row.mb-3(data-aos="fade-right")
       .col-auto
         figure
           img(src="@/assets/template/fri.svg", alt="alt")
@@ -18,7 +18,7 @@
       .col-md-6.col-lg-3.align-content-center.mb-3
         figure
           img(src="@/assets/curso/temas/tema2/1.png", alt="alt")
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         p La soldadura es la unión de dos piezas metálicas mediante la aportación de otro metal o aleación de punto de fusión más bajo que el de las partes a soldar. 
         p Aunque existe una enorme variedad de soldaduras, las podemos dividir en dos grandes grupos: 
         ul.lista-ul--color
@@ -63,7 +63,7 @@
             li.d-flex 
               i.fas.fa-check-circle.bgr
               p.text-white.mb-0 Aleaciones para soldar platino.
-        .col-md-8.col-lg-3.align-content-center
+        .col-md-8.col-lg-3.align-content-center(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/tema2/4.png', alt='Imagen de apoyo')
       .row.justify-content-center
@@ -143,11 +143,12 @@
                 td 600
                 td 334
                 td 
-      .col-md-10.col-xl-5.align-content-center
+      .col-md-10.col-xl-5.align-content-center(data-aos="flip-right")
         figure
           img(src='@/assets/curso/temas/tema2/7.png', alt='Imagen de apoyo')
     
-    h3.bgr_1 Ternarias 
+    div(data-aos="fade-right")
+      h3.bgr_1 Ternarias 
 
     p.mt-5 Son las más utilizadas en la joyería, en el siguiente cuadro se hace referencia a la sugerencia de utilizar las aleaciones con latón, no obstante, es imprescindible conocer exactamente de qué porcentaje es el latón que se está utilizando y estar seguro de que no contiene impurezas.
 

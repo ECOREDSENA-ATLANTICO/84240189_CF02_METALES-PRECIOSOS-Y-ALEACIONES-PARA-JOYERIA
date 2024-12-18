@@ -8,7 +8,7 @@
       h1 Manejo de residuos
     
     .row.mb-5.justify-content-center
-      .col-md-8.col-xl-5.mb-3
+      .col-md-8.col-xl-5.mb-3(data-aos="fade-right")
         figure
           img(src="@/assets/curso/temas/tema7/1.png", alt="alt")
       .col-xl-7
@@ -18,7 +18,7 @@
     p.text-bold.mb-5 Entre los principales problemas ambientales asociados a la refinación, procesamiento, manejo y disposición de residuos en la actividad de joyería se destacan:
 
     .row.mb-5.justify-content-center
-      .col-md-6.col-xl-4.mb-4
+      .col-md-6.col-xl-4.mb-4(data-aos="flip-right")
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
@@ -26,7 +26,7 @@
           .tarjeta-numerada__numero
             .h2 1
           p.text-center.mb-0 Dispersión de material particulado debido al trabajo en las pulidoras mecánicas.
-      .col-md-6.col-xl-4.mb-4
+      .col-md-6.col-xl-4.mb-4(data-aos="flip-left")
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
@@ -34,7 +34,7 @@
           .tarjeta-numerada__numero
             .h2 2
           p.text-center.mb-0 Vertimientos no controlados de metales como Cu, Al, Na, Zn, compuestos de CN, No3 y otros. 
-      .col-md-6.col-xl-4.mb-4
+      .col-md-6.col-xl-4.mb-4(data-aos="flip-right")
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
@@ -42,7 +42,7 @@
           .tarjeta-numerada__numero
             .h2 3
           p.text-center.mb-0 Generación de niveles elevados de ruido.
-      .col-md-6.col-xl-4.mb-4
+      .col-md-6.col-xl-4.mb-4(data-aos="flip-down")
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
@@ -50,7 +50,7 @@
           .tarjeta-numerada__numero
             .h2 4
           p.text-center.mb-0 Generación de emisiones toxicas y corrosivas debidas a las sustancias utilizadas como cianuro y el ácido nítrico.
-      .col-md-6.col-xl-4.mb-4
+      .col-md-6.col-xl-4.mb-4(data-aos="flip-up")
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         //- estas clases tambien tienen un modificador --borde
