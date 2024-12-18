@@ -12,7 +12,7 @@
     .row.mb-5.justify-content-center
       .col-md-6.col-lg-4.mb-3(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/temas/tema1/1.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/1.svg', alt='Aleaciones, metal noble color al metal, soldadura fundición, aleaciones metales no preciosos.')
       .col-lg-8.align-content-center
         ul.lista-ul--color
           li.mb-5.d-flex 

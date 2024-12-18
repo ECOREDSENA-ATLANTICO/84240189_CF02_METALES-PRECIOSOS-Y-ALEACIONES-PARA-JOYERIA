@@ -56,7 +56,7 @@
 
     .bg_img_2
       figure.mb-3
-        img(src="@/assets/curso/temas/tema3/4.png", alt="alt")
+        img(src="@/assets/curso/temas/tema3/4.png", alt="Muestra la llama carburante y sus colores: azul claro, amarillo y azul marino. Llama neutral: azul claro, amarillo, azul marino- Llama oxidante: azul claro y azul marino.")
       figcaption Fuente Sena 2024
 
     .row.mb-3.mt-5(data-aos="fade-right")

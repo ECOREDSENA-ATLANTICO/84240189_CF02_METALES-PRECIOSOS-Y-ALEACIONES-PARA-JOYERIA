@@ -438,7 +438,7 @@
     p.mt-4.mb-5 La siguiente formula resulta muy útil cuando se quiere convertir una ley baja en otra alta, añadiendo oro fino. Se debe tener presente que 1000 milésimas corresponden a la ley del oro fino y que, en este caso, la ley deseada es siempre la ley más alta.
 
     figure.d-flex.justify-content-center.mb-5
-      img.pst.w-50(src='@/assets/curso/temas/tema5/15.svg', alt='Imagen de apoyo')
+      img.pst.w-50(src='@/assets/curso/temas/tema5/15.svg', alt='Cantidad oro a añadir es igual a ley alta-ley baja x eso en gr, dividido 1000-ley alta')
 
     p Queremos aumentar un lingote de 20 gr de 500 milésimas (ley baja) a 750 milésimas (ley alta). Se tendrá que añadir 20 gr de oro fino. 
     p.mb-5 Así pues, al añadir 20 gr de oro fino a los 20 gr de 500 milésimas que ya se tenían en un principio, se obtiene un lingote de 40 gr de aleación de 18 kilates (750 milésimas). 

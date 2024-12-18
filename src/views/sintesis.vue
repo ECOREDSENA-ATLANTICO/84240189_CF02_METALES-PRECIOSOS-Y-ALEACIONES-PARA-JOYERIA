@@ -11,7 +11,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La gráfica muestra la síntesis del componente formativo, de aleaciones y análisis en los metales preciosos, teniendo en cuenta la aleación del metal, soldadura, la fundición y la aleación, depurantes y fundentes, ensayos químicos, el riesgo en la joyería y el manejo de residuos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
