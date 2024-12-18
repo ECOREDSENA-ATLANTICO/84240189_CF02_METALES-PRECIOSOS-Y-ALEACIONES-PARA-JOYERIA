@@ -125,10 +125,11 @@ export default {
   },
   complementario: [
     {
-      tema: 'Metales preciosos y aleaciones para joyería',
-      referencia: 'Repositorio SENA',
-      tipo: 'Video',
-      link: 'https://youtu.be/echh5DT0IzA?si=vMgFe9AHVO6iJsT1  ',
+      tema: 'El riesgo higiénico en la joyería.',
+      referencia:
+        'Simó, R. M. (2001). Riesgos Higiénicos en el sector de la Joyería. Prevención, trabajo y salud: Revista del Instituto Nacional de Seguridad e Higiene en el Trabajo, (12), 18-24.',
+      tipo: 'PDF',
+      descarga: '/downloads/504261.pdf',
     },
   ],
   glosario: [
@@ -218,7 +219,7 @@ export default {
       link: '',
     },
     {
-      referencia: 'Codina, carles. (2000). La Joyería. Barcelona: Parramon.',
+      referencia: 'Codina, carles. (2000). La Joyería. Barcelona: Parramón.',
       link: '',
     },
     {
@@ -228,7 +229,7 @@ export default {
     },
     {
       referencia:
-        'Montero Simó, Rosa. Riesgos higiénicos en el sector de la joyería. Centro de seguridad e higiene en el trabajo de córdoba consejería de empleo y desarrollo tecnológico junta de Andalucía.',
+        'Montero Simó, Rosa. Riesgos higiénicos en el sector de la joyería. Centro de seguridad e higiene en el trabajo de Córdoba consejería de empleo y desarrollo tecnológico junta de Andalucía.',
       link:
         'http://www.insht.es/InshtWeb/Contenidos/Documentacion/TextosOnline/Rev_ INSHT/2001/12/seccionTecTextCompl2.pdf',
     },
